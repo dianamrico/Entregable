@@ -1,0 +1,57 @@
+html{
+    line-height: 1.10;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+body
+{
+    margin: 0;
+    background-color: #343959;
+}
+h1{
+    font-size: 4rem;
+    margin: 0.6em 0;
+    color: #E70012;
+}
+h2{
+    font-size: 2rem;
+    margin: 0.6em 0;
+    color: #91E9F2;
+}
+pre{
+    
+    font-size: 1em;
+}
+img{
+    border-style: none;
+}
+.texto-centrado{
+    text-align: center;
+}
+p{
+   color: #55A6D9;
+}
+.contenedor-juegos{
+    display: grid;
+    gap: 2.5rem;
+    grid-template-columns: repeat(2,1fr);
+    height: 100vh;
+}
+.contenedor-juegos .imagen{
+    background-image: url('/img/Zelda.jpg');
+    background-position: 0%;
+    background-size: cover;
+    height: 60rem;
+}
+.app{
+    margin: 0;
+    padding-top: 2.5rem;
+    width: 95%;
+}
+.app .seccion{
+    margin-top: 2.5rem;
+}
+.listado-juegos{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(2,1fr);
+}
